@@ -1,0 +1,122 @@
+body {
+    font-size: small;
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+#bottombar a:link, #bottombar a:visited {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: right;
+    display: block;
+    padding: 0 0 0 18px;
+}
+
+#container {
+    margin: 10px 0 0 0 auto;
+    text-align: center;
+    height: 100%;
+}
+
+#topbar {
+    margin: 25px 40px 0 0;
+    height: 100px;
+}
+
+#notifs {
+    height; 32px;
+    width: 32px;
+    position: relative;
+    top: -5px;
+}
+
+#icon {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    top: -12px;
+}
+
+#logo, #searchbar, #searchoptions {
+    position: relative;
+    top: 80px;
+}
+
+#logo {
+    margin: auto;
+}
+
+#searchbar {
+    margin: auto;
+    padding-top: 15px;
+}
+
+input {
+    height: 30px;
+    width: 40em;
+}
+
+#searchoptions {
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #f1f1f1;
+    font: bold 11px/27px arial, sans-serif!important;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 3px 4px 3px 4px;
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button:hover {
+    border: 2px solid #dcdcdc;
+}
+
+#bottombar {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 99.5%;
+    bottom: 0;
+    position: absolute;
+}
+
+#bottombar a {
+    margin-right: 15px;
+}
+
+#bottombar ul {
+    padding: 0 0 0 20px;
+}
+
+#bottomleft {
+    float: left;
+    margin: 0;
+}
+
+#bottomright {
+    float: right;
+    margin: 0;
+    margin-right: 20px;
+}
